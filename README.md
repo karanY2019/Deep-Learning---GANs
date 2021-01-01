@@ -1,6 +1,6 @@
 # Deep Learning - GANs
-Wasserstein GAN, Least Square GAN and Conditional GAN.
-*Compare different choices of losses in GAN training. (Fashion-Mnist dataset)
+### Wasserstein GAN, Least Square GAN and Conditional GAN.
+### Compare different choices of losses in GAN training. (Fashion-Mnist dataset)
 
 ## Wasserstein GAN (WGAN)
 
@@ -16,7 +16,7 @@ I tried c from the set {0.1, 0.01, 0.001, 0.0001} and compare the difference fro
 
 It provides a smoother loss surface than the original GAN loss (MSE loss)
 
-# Conditional GAN
+## Conditional GAN
 
 To generate not just any images from FashionMNIST data distribution, but images with a particular label such as shoes. This is called the Conditional GAN because now samples are drawn from a conditional distribution given a label as input.
 
