@@ -1,6 +1,6 @@
 # Deep Learning - GANs
-Wasserstein GAN, Least Square GAN and Conditional GAN
-Compare different choices of losses in GAN training. (Fashion-Mnist dataset)
+Wasserstein GAN, Least Square GAN and Conditional GAN.
+*Compare different choices of losses in GAN training. (Fashion-Mnist dataset)
 
 ## Wasserstein GAN (WGAN)
 
