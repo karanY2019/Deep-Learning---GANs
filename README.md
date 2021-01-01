@@ -1,8 +1,6 @@
 # Deep Learning - GANs
 Compare different choices of losses in GAN training.
 
-## MSE loss
-
 ## Wasserstein GAN (WGAN)
 WGAN is proposed to address the vanishing gradient problem in the original GAN loss
 when the discriminator is way ahead of the generator. One thing to change in WGAN
@@ -16,5 +14,4 @@ I tried c from the set {0.1, 0.01, 0.001, 0.0001} and compare the difference fro
 
 It provides a smoother loss surface than the original GAN loss (MSE loss)
  
-Training curves and the generated samples:
 
